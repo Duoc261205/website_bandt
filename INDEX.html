@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Điện thoại nổi bật</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f2f6fc;
+      color: #222;
+    }
+    header {
+      background: #0077b6;
+      color: white;
+      text-align: center;
+      padding: 1.5rem;
+    }
+    header h1 { margin: 0; }
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 1rem;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1rem;
+      margin-top: 2rem;
+    }
+    .card {
+      background: white;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    .card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+    .card h3 {
+      margin: 0.5rem;
+      font-size: 1.2rem;
+      color: #0077b6;
+    }
+    .card p {
+      margin: 0.5rem;
+      color: #555;
+    }
+    footer {
+      background: #0077b6;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>PhoneSpot</h1>
+    <p>Bộ sưu tập điện thoại đẹp</p>
+  </header>
+
+  <main class="container">
+    <h2>Điện thoại nổi bật</h2>
+    <div class="gallery">
+      <div class="card">
+        <img src="images/phone1.jpg" alt="Điện thoại 1">
+        <h3>Smartphone A</h3>
+        <p>Màn hình AMOLED, Camera 50MP</p>
+      </div>
+      <div class="card">
+        <img src="images/phone2.jpg" alt="Điện thoại 2">
+        <h3>Smartphone B</h3>
+        <p>Pin 5000 mAh, RAM 8GB</p>
+      </div>
+      <div class="card">
+        <img src="images/phone3.jpg" alt="Điện thoại 3">
+        <h3>Smartphone C</h3>
+        <p>Thiết kế sang trọng, hiệu năng mạnh</p>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    © 2025 PhoneSpot • Demo HTML
+  </footer>
+</body>
+</html>
